@@ -23,7 +23,7 @@ class _PostMobxViperState extends State<PostMobxViper> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Post Mobx VIPER',
-      initialRoute: '/posts',
+      initialRoute: '/counter',
       onGenerateRoute: AppRouter.router.generator,
       theme: ThemeData(
         primarySwatch: Colors.blue,
